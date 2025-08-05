@@ -1,4 +1,5 @@
-x = 10
-y = 4
-z = x * (x - y) % y / x
-print (z)
+val = 2
+def mul():
+    val = val * 2
+    return val
+print(mul())
